@@ -1,2 +1,2 @@
-# goit-markup-hw-05
-Zadanie 5 GOIT
+# goit-markup-hw-06
+Zadanie 6 GOIT
