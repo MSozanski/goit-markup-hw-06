@@ -395,7 +395,7 @@ body {
   height: 80px;
 }
 
-.footer-container-social-h3 {
+.footer-container-text-h3 {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -435,6 +435,48 @@ body {
   background-color: var(--green);
   cursor: pointer;
 }
+.footer-container-subscribe {
+  margin-left: 80px;
+}
+.footer-container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container-subscribe-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: var(--navyblue);
+  color: var(--white);
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.48px;
+}
+
+.footer-container-subscribe-button {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--iris);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  margin-left: 24px;
+  fill: currentColor;
+}
+
 /* ##### END FOOTER ##### */
 
 /* ################# PORTFOLIO ################## */
@@ -501,7 +543,7 @@ body {
   row-gap: 48px;
 }
 
-.main-portfolio > .main-portfolio-section{
+.main-portfolio > .main-portfolio-section {
   margin-bottom: 120px;
 }
 
@@ -545,7 +587,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.portfolio-main-image-block{
+.portfolio-main-image-block {
   display: block;
 }
 
