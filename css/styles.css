@@ -782,6 +782,7 @@ body {
   height: 120px;
   resize: none;
   border-radius: 4px;
+  color: var(--navybluemodal);
   border: 1px solid var(--navybluemodal);
   background-color: transparent;
   margin-top: 4px;
@@ -828,7 +829,7 @@ body {
 }
 
 .modal-body-privacy-box:checked + label>span {
-  background-color: var(--iris);
+  background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
 }
