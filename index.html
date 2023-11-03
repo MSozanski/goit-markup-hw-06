@@ -532,7 +532,7 @@
           </p>
         </div>
         <div class="footer-container-social">
-          <h3 class="footer-container-text-h3">Social media</h3>
+          <p class="footer-container-text-p">Social media</p>
           <ul class="footer-container-social-icon">
             <li class="list">
               <a class="footer-container-social-icon-link" href="#0">
@@ -601,7 +601,7 @@
           </ul>
         </div>
         <div class="footer-container-subscribe">
-          <p class="footer-container-text-h3">Subscribe</p>
+          <p class="footer-container-text-p">Subscribe</p>
           <form
             class="footer-container-form"
             name="email-subscribe"
@@ -617,10 +617,7 @@
                 maxlength="50"
               />
             </label>
-            <button
-              class="footer-container-subscribe-button"
-              type="submit"
-            >
+            <button class="footer-container-subscribe-button" type="submit">
               Subscribe
               <svg
                 class="footer-container-subscribe-button-svg"
@@ -645,8 +642,8 @@
           Leave your contacts and we will call you back
         </p>
         <form class="modal-body-form">
-          <label for="username" class="modal-body-form-label"
-            >Name
+          <div class="modal-body-form-container">
+            <label for="username" class="modal-body-form-label">Name </label>
             <div class="modal-body-form-label-div">
               <input
                 class="modal-body-form-input"
@@ -657,9 +654,9 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
-          </label>
-          <label class="modal-body-form-label" for="phone"
-            >Phone
+          </div>
+          <div class="modal-body-form-container">
+            <label class="modal-body-form-label" for="phone">Phone</label>
             <div class="modal-body-form-label-div">
               <input
                 class="modal-body-form-input"
@@ -667,10 +664,11 @@
                 name="phone"
               /><svg class="modal-body-form-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
-              </svg></div
-          ></label>
-          <label class="modal-body-form-label" for="mail"
-            >Email
+              </svg>
+            </div>
+          </div>
+          <div class="modal-body-form-container">
+            <label class="modal-body-form-label" for="mail">Email</label>
             <div class="modal-body-form-label-div">
               <input
                 class="modal-body-form-input"
@@ -678,11 +676,11 @@
                 name="mail"
               /><svg class="modal-body-form-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
-              </svg></div
-          ></label>
-
-          <label class="modal-body-form-label" for="comment">
-            Comment
+              </svg>
+            </div>
+          </div>
+          <div class="modal-body-form-container-comment">
+            <label class="modal-body-form-label" for="comment"> Comment</label>
             <textarea
               class="modal-body-form-comment"
               name="comment"
@@ -691,7 +689,7 @@
               rows="10"
               placeholder="Text input"
             ></textarea>
-          </label>
+          </div>
           <div class="modal-body-privacy">
             <input
               class="visually-hidden modal-body-privacy-box"
